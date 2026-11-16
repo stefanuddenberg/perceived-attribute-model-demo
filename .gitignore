@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# StyleGAN2
+weights/
+*.pkl
+stylegan2-ada-pytorch/
