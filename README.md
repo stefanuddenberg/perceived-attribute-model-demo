@@ -67,4 +67,4 @@ The InsightFace library code is MIT-licensed, but the pretrained `buffalo_l` wei
 
 ## Contact
 
-If you would like to learn more about this work or use some of our existing models, please reach out to Stefan Uddenberg at stefanu@illinois.edu.
+If you would like to learn more about this work or use some of our existing models, please reach out to Stefan Uddenberg at stefanu@illinois.edu. You can learn more about our work at [our lab website](https://www.socialperception.org).
