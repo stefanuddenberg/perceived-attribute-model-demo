@@ -30,7 +30,7 @@ docker build -t attribute-demo .
 docker run --gpus all -p 8888:8888 -v "${PWD}:/work" attribute-demo
 ```
 
-The first command builds the image and names it `attribute-demo`. This will download all the necessary pieces to get the repository working (including StyleGAN2 and InsightFace dependencies), so it may take some time. The second command runs the container (mounting your current directory as `/work`) and mkaes the notebook available at http://127.0.0.1:8888.
+The first command builds the image and names it `attribute-demo`. This will download all the necessary pieces to get the repository working (including StyleGAN2 and InsightFace dependencies), so it may take some time. The second command runs the container (mounting your current directory as `/work`) and makes the notebook available at http://127.0.0.1:8888.
 
 (After the `docker run` command, your terminal may print some other URL, such as `http://e1dce6f67787:8888/` but I was never able to get the anonymous URL to work). Simply go to http://127.0.0.1:8888 in your browser, then click on `attribute_model_demo.ipynb` to open the notebook.
 
